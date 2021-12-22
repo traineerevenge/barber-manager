@@ -1,11 +1,11 @@
+import React from 'react';
 import './App.css';
+import Rotas from './routes';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Barber Manager</h1>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Rotas />
+  </div>
+);
 
 export default App;

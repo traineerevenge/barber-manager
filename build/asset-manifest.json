@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/barber-manager/static/css/main.073c9b0a.css",
-    "main.js": "/barber-manager/static/js/main.c2bdd912.js",
+    "main.css": "/barber-manager/static/css/main.ee20314e.css",
+    "main.js": "/barber-manager/static/js/main.a381b002.js",
     "index.html": "/barber-manager/index.html",
-    "main.073c9b0a.css.map": "/barber-manager/static/css/main.073c9b0a.css.map",
-    "main.c2bdd912.js.map": "/barber-manager/static/js/main.c2bdd912.js.map"
+    "main.ee20314e.css.map": "/barber-manager/static/css/main.ee20314e.css.map",
+    "main.a381b002.js.map": "/barber-manager/static/js/main.a381b002.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c2bdd912.js"
+    "static/css/main.ee20314e.css",
+    "static/js/main.a381b002.js"
   ]
 }

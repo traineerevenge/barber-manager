@@ -1,3 +1,42 @@
 .mainDiv{
     background: #0E222A;
 }
+
+.user__barber-banner img{
+    width: 300px;
+}
+
+.user__barber-description,
+.user__barber-banner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user__barber-banner img{
+    width: 100%;
+}
+
+
+.user__container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__barber-description p {
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.user__barber-description h2 {
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+}

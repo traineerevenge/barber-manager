@@ -1,0 +1,46 @@
+.loyalty__missing-stars,
+.loyalty__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 580px;
+    margin: 35px auto;
+}
+
+.loyalty__card{
+    max-width: 75px;
+    margin: 20px;
+}
+
+.loyalty__card img{
+    width: 100%;
+}
+
+.loyalty__title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loyalty__title h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.loyalty__title p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.loyalty__missing-stars{
+    
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+}

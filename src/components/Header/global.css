@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    background: transparent;
+    background: #111;
     transition: all ease 0.5s;
   }
   
@@ -40,7 +40,6 @@ header {
   }
   
   .header__barber-logo img{
-    height: 85px;
-    margin-top: 23px;
+    height: 55px;
   }
   

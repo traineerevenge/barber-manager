@@ -18,7 +18,6 @@
 }
 
 .loyalty__title{
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,4 +42,29 @@
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 24px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.loyalty{    
+    background:#1D1E1B; 
+    padding: 40px 0;
+}
+.loyalty__scheduling{
+    text-decoration: none;
+    padding: 10px 20px;
+
+    font-size: 18px;
+    background: #8257c7;
+    border: none;
+    border-radius: 16px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFF;
+
+    
+    cursor: pointer;
 }

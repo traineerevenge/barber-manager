@@ -4,7 +4,7 @@ import Star from '../../images/icon--star.png'
 
 const Loyalty = () => {
     return (
-        <>
+        <div className="loyalty">
             <div className="loyalty__title">
                 <h2>
                     # LEALDADE
@@ -46,9 +46,13 @@ const Loyalty = () => {
             </section>
 
             <div className="loyalty__missing-stars">
-                <h3> Faltam 3 estrelas </h3>
+                <h3> Faltam 3 estrelas! </h3>
+
+            <a href="#scheduling" className="loyalty__scheduling">
+                Agende seu corte agora
+            </a> 
             </div>
-        </>
+        </div>
     )
 }
 

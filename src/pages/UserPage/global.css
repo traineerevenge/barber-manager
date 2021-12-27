@@ -1,41 +1,51 @@
 .mainDiv{
     background: #0E222A;
 }
-
-.user__barber-banner img{
-    width: 300px;
-}
-
 .user__barber-description,
 .user__barber-banner{
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.user__barber-banner{
+    width: 55%;
+}
+.user__barber-description{
+    width: 45%;
+}
+
 .user__barber-banner img{
     width: 100%;
+    border-radius: 15px;
 }
 
 
 .user__container{
-    margin-top: 130px;
+    margin-top: 50px;
+    padding: 75px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #fff;
+}
+
+.user__barber-description{
+    padding: 20px;
 }
 
 .user__barber-description p {
-    max-width: 500px;
+
     text-align: center;
     font-family: 'Poppins';
     font-weight: 400;
+    color: #000;
 }
 
 .user__barber-description h2 {
-    max-width: 500px;
+    color: #5e5555;
+
     text-align: center;
     font-family: 'Poppins';
     font-weight: 600;

@@ -1,0 +1,65 @@
+.scheduling{
+    background: #4b4b4b;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scheduling h2{
+    margin: 0;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 900;
+}
+
+
+
+.scheduling p,
+.scheduling h3{
+    padding: 10px;
+    margin: 10px;
+}
+.scheduling h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.scheduling p{        
+    font-family: 'Poppins';
+    font-weight: 600;
+    background: #666666;
+    border-radius: 15px;
+    padding: 12px 20px;  
+}
+
+.scheduling__container{ 
+    padding: 14px 5px 40px 5px;
+    margin-top: 40px;
+    background: #333333;
+    
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "scheduling__date-title scheduling__time-title scheduling__confirmation-title"
+        "scheduling__date-res scheduling__time-res scheduling__confirmation";
+}
+
+.scheduling__date-title { grid-area: scheduling__date-title; }
+
+.scheduling__time-title { grid-area: scheduling__time-title; }
+
+.scheduling__confirmation-title { grid-area: scheduling__confirmation-title; }
+
+.scheduling__date-res { grid-area: scheduling__date-res; }
+
+.scheduling__time-res { grid-area: scheduling__time-res; }
+
+.scheduling__confirmation { grid-area: scheduling__confirmation; }

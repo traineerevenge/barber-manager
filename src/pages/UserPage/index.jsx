@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import './global.css'
 import BarberBanner from '../../images/barber_banner.jpg'
 import Loyalty from "../../components/Loyalty";
+import Scheduling from './../../components/Scheduling';
 
 const UserPage = () => {
     return (
@@ -29,6 +30,8 @@ const UserPage = () => {
                     </div>
                 </section>
                 <Loyalty />
+
+                < Scheduling />
             </main>
          </>
     )

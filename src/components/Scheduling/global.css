@@ -9,6 +9,7 @@
 }
 
 .scheduling h2{
+    text-align: center;
     margin: 0;
     color: #fff;
     font-family: 'Roboto';
@@ -34,6 +35,12 @@
     background: #666666;
     border-radius: 15px;
     padding: 12px 20px;  
+}
+
+.scheduling__confirmation p{
+    background: #ffd500;
+    color: #000;
+    text-align: center;
 }
 
 .scheduling__container{ 
@@ -63,3 +70,25 @@
 .scheduling__time-res { grid-area: scheduling__time-res; }
 
 .scheduling__confirmation { grid-area: scheduling__confirmation; }
+
+
+@media screen and (max-width: 640px){
+    .scheduling__container{ 
+        min-width: 330px;
+
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+        grid-template-areas:
+        "scheduling__date-title"
+        "scheduling__date-res"
+        "scheduling__time-title"
+        "scheduling__time-res"
+        "scheduling__confirmation-title"
+        "scheduling__confirmation"; 
+    }
+
+    .scheduling__container p{
+        text-align: center;
+    }
+}

@@ -9,12 +9,7 @@
     flex-direction: column;
 }
 
-.user__barber-banner{
-    width: 55%;
-}
-.user__barber-description{
-    width: 45%;
-}
+
 
 .user__barber-banner img{
     width: 100%;
@@ -28,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #fff;
 }
 
@@ -50,3 +46,17 @@
     font-family: 'Poppins';
     font-weight: 600;
 }
+
+@media screen and (min-width: 780px){
+    .user__container{
+        flex-direction: row;
+    }
+
+    .user__barber-description{
+        width: 45%;
+    }
+    .user__barber-banner{
+        width: 55%;
+    }
+    
+} 

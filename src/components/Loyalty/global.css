@@ -65,6 +65,18 @@
     font-weight: 600;
     color: #FFF;
 
-    
     cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    .loyalty{
+        padding: 40px 20px 55px;
+    }
+    .loyalty__missing-stars, .loyalty__container {
+
+        margin: 10px auto;
+    }
+    .loyalty__card{
+        margin: 15px;
+    }
 }

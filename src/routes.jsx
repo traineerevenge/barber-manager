@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Routes, Route, Router } from 'react-router-dom';
+import {  Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import InitialPage from './pages/InitialPage'
 import PageLogin from './pages/Login';
@@ -8,14 +8,14 @@ import BarberPage from './pages/BarberPage';
 
 const Rotas = () => (
 
-    < Router basename={process.env.PUBLIC_URL} >
+    < BrowserRouter >
         <Routes>
           <Route path='/barber-manager' element={<InitialPage/>} />  
           <Route path='/barber-manager/login' element={<PageLogin/>} />  
           <Route path='/barber-manager/user' element={<UserPage/>} />  
           <Route path='/barber-manager/perfil-barber' element={<BarberPage/>} />
         </Routes>
-    </ Router>
+    </ BrowserRouter>
 );
 
 export default Rotas;

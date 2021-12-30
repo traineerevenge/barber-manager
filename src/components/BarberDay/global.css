@@ -1,0 +1,26 @@
+
+.perfil-day{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 106px;
+    flex-direction: column;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    padding: 5px;
+    max-height: 150px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease .2s;
+    font-weight: bold;
+}
+.perfil-day:hover{
+    border: 2px solid rgb(247, 225, 22);
+    color: rgb(247, 225, 22);
+}
+.perfil-day.selected{
+    border: 2px solid transparent;
+    color: black;
+    background-color: rgb(247, 225, 22);
+}

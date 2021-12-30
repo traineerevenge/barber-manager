@@ -56,7 +56,9 @@
     flex-direction: column;
     gap: 10px;
 }
-.perfil-services{
+.perfil-services,
+.perfil-hours,
+.perfil-days{
     width: 100%;
     background-color: #242526;
     border-radius: 10px;
@@ -89,36 +91,18 @@
     color: rgb(247, 225, 22);
 }
 .perfil-services__title:hover::after{
-    width: 70px;
+    width: 100%;
     background-color: rgb(247, 225, 22);
     transition: all ease .3s;
 }
-.perfil-services__servicos{
+.perfil-services__servicos,
+.perfil-services__dias{
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 5px;
-    flex-wrap: wrap;
 }
-.perfil-servico{
-    display: flex;
-    max-width: 106px;
-    flex-direction: column;
-    border: 2px solid rgb(155, 155, 155);
-    border-radius: 5px;
-    padding: 5px;
-    max-height: 150px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all ease .2s;
-    font-weight: bold;
-}
-.perfil-servico:hover{
-    background-color: rgb(247, 225, 22);
-    color: rgb(37, 37, 37);
-    border: 2px solid transparent;
-}
+
 .perfil-horarios{
     width: 100%;
     height: 200px;

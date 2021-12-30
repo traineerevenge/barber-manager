@@ -1,0 +1,17 @@
+.hour{
+    padding: 5px 10px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease .2s
+}
+.hour:hover{
+    border: 2px solid rgb(247, 225, 22);
+    color: rgb(247, 225, 22);
+}
+.hour.selected{
+    border: 2px solid transparent;
+    color: black;
+    background-color: rgb(247, 225, 22);
+    font-weight: bold;
+}

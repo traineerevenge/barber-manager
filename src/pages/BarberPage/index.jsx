@@ -1,5 +1,9 @@
 import React from "react";
 import Header from "../../components/Header";
+import BarberDay from "../../components/BarberDay";
+import BarberService from "../../components/BarberService";
+import BarberHour from "../../components/BarberHour";
+
 import './global.css'
 
 const BarberPage = () => {
@@ -22,40 +26,22 @@ const BarberPage = () => {
                         </div>
                         <div className="perfil-geral">
                             <div className="perfil-services">
-                                <h3 className="perfil-services__title">Serviços</h3>
+                                <h3 className="perfil-services__title">Serviços:</h3>
                                 <div className="perfil-services__servicos">
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
-                                    <div className="perfil-servico">
-                                        <p className="perfil-servico__title">HairCut Only</p>
-                                        <p className="perfil-servico__price">R$ 39,00</p>
-                                    </div>
+                                    <BarberService/>
                                 </div>
                             </div>
-                            <div className="perfil-horarios">
-
+                            <div className="perfil-days">
+                                <h3 className="perfil-services__title">Dias:</h3>
+                                <div className="perfil-services__servicos">
+                                    <BarberDay/>
+                                </div>
+                            </div>
+                            <div className="perfil-hours">
+                                <h3 className="perfil-services__title">Horários:</h3>
+                                <div className="perfil-services__servicos">
+                                    <BarberHour/>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -20,8 +20,43 @@ const BarberPage = () => {
 
                             </div>
                         </div>
-                        <div className="perfil-services">
+                        <div className="perfil-geral">
+                            <div className="perfil-services">
+                                <h3 className="perfil-services__title">Serviços</h3>
+                                <div className="perfil-services__servicos">
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                    <div className="perfil-servico">
+                                        <p className="perfil-servico__title">HairCut Only</p>
+                                        <p className="perfil-servico__price">R$ 39,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="perfil-horarios">
 
+                            </div>
                         </div>
                     </div>
                 </div>

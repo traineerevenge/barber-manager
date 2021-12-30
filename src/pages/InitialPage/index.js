@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 
-export default () => {
+const InitialPage = () => {
  
   return (
     <div className="page">
@@ -10,3 +10,4 @@ export default () => {
 
   )
 }
+export default InitialPage

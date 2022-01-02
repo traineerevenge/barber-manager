@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "../../components/Header";
+import BarberPerfil from "../../components/BarberPerfil";
 import BarberDay from "../../components/BarberDay";
 import BarberService from "../../components/BarberService";
 import BarberHour from "../../components/BarberHour";
+import BarberButton from "../../components/BarberButtonAgende";
 
 import './global.css'
 
@@ -13,17 +15,7 @@ const BarberPage = () => {
             <main className="perfil">
                 <div className="container">
                     <div className="perfil-area">
-                        <div className="perfil-info">
-                            <div className="perfil-info__img">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Foto_Perfil.jpg" alt="perfil" />
-                            </div>
-                            <div className="perfil-info__name">
-                                <span>George Martins</span>
-                            </div>
-                            <div className="perfil-info__rated">
-
-                            </div>
-                        </div>
+                        <BarberPerfil/>
                         <div className="perfil-geral">
                             <div className="perfil-services">
                                 <h3 className="perfil-services__title">Serviços:</h3>
@@ -43,6 +35,7 @@ const BarberPage = () => {
                                     <BarberHour/>
                                 </div>
                             </div>
+                            <BarberButton/>
                         </div>
                     </div>
                 </div>

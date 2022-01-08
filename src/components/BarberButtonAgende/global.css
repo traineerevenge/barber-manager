@@ -1,0 +1,13 @@
+.agende-button{
+    max-width: 300px;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0;
+    transition: all ease 10s;
+}
+.agende-button:hover{
+    border: 10px solid yellow;
+    transition: all ease 10s;
+}

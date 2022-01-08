@@ -1,0 +1,129 @@
+.scheduling-request{
+    background: #262b4a;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scheduling-request h2{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 900;
+}
+
+
+
+.scheduling-request p,
+.scheduling-request h3{
+    padding: 10px;
+    margin: 10px;
+}
+.scheduling-request h3{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.scheduling-request p{        
+    font-family: 'Poppins';
+    font-weight: 600;
+    background: #666666;
+    border-radius: 15px;
+    padding: 12px 20px;  
+}
+
+.scheduling-request__confirmation button{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin: 0 5px ;
+    text-align: center;
+   
+    border-radius: 10px;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.accept{
+    padding:  10px 50px;
+    background: #8257c7;
+}
+.decline{
+    padding:  10px 15px;
+    background: #b1165e;
+    color: #fff;
+}
+
+.scheduling-request__container{ 
+    margin-bottom: 20px;
+    padding: 14px 15px 40px 15px;
+    background: #232228;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "scheduling-request__client scheduling-request__client scheduling-request__client"
+        "scheduling-request__date-title scheduling-request__time-title scheduling-request__confirmation-title"
+        "scheduling-request__date-res scheduling-request__time-res scheduling-request__confirmation";
+}
+
+.scheduling-request__client { 
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;    
+    grid-area: scheduling-request__client; 
+}
+
+.scheduling-request__date-title { grid-area: scheduling-request__date-title; }
+
+.scheduling-request__time-title { grid-area: scheduling-request__time-title; }
+
+.scheduling-request__confirmation-title { grid-area: scheduling-request__confirmation-title; }
+
+.scheduling-request__date-res { grid-area: scheduling-request__date-res; }
+
+.scheduling-request__time-res { grid-area: scheduling-request__time-res; }
+
+.scheduling-request__confirmation { grid-area: scheduling-request__confirmation; }
+
+.scheduling-request__container  div {
+    display: flex;
+
+    align-items: center;
+}
+
+.scheduling-request__client h2 {
+    margin: 0;
+
+    font-family: 'Roboto';
+ }
+
+@media screen and (max-width: 640px){
+    .scheduling-request__container{ 
+        min-width: 330px;
+
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+        grid-template-areas:
+        "scheduling-request__date-title"
+        "scheduling-request__date-res"
+        "scheduling-request__time-title"
+        "scheduling-request__time-res"
+        "scheduling-request__confirmation-title"
+        "scheduling-request__confirmation"; 
+    }
+
+    .scheduling-request__container p{
+        text-align: center;
+    }
+}

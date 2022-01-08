@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../../components/Header";
 import './global.css'
 
 const BarberPage = () => {
     return (
         <>
-            <Header />
             <main className="perfil">
                 <div className="container">
                     <div className="perfil-area">
